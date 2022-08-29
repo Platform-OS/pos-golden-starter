@@ -1,4 +1,4 @@
-# Golden Platform starer
+# Golden Platform starter
 
 This repository is a helper repository to start working on the Golden Platform from [PlatformOS](https://www.platformos.com).
 
@@ -24,7 +24,7 @@ We are using a collection of tools that one should understand to work with the G
    ```
    git clone https://github.com/Platform-OS/pos-golden-starter.git
    ```
-2. Open `.gitmodules` from the root directory of cloned repository and edit all of the URLs from default SHH to HTTPS line in the example:
+2. Open `.gitmodules` from the root directory of cloned repository and edit all of the URLs from default SHH to HTTPS as in the example:
    `git@github.com:Platform-OS/pos-module-core.git` to `https://github.com/Platform-OS/pos-module-core.git`
 3. Save the file
 4. Run the following command from the root of the repository folder to install all of the submodules:
