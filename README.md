@@ -109,6 +109,8 @@ git submodule update --remote --merge
 ### Start developing
 [TBD]
 
+**To learn about modules integration** please refer to the [hook system](https://github.com/Platform-OS/pos-module-core).
+
 **To create your own module** please refer to [Module Template](https://github.com/Platform-OS/pos-module-template) repository.
 
 **To create your own theme** please refer to [Theme Module Starter](https://github.com/Platform-OS/pos-theme-module-template) repository.
