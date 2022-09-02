@@ -71,26 +71,26 @@ This will add the instance with a `dev` alias as the developement tools assume t
 
 
 ### Install and manage modules
-Golden Platform modules are self-contained building blocks that one can use to create complex and cusotmized webpages and applications.
+Golden Platform modules are self-contained building blocks that you can use to create complex and customized webpages and applications.
 
-Modules are managed using [GIT Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To install a module one needs to run the following command in the `.\modules\` subfolder:
+Modules are managed using [GIT Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To install a module, you need to run the following command in the `.\modules\` subfolder:
 
 ```
 git submodule add <module_remote_url> <destination_folder>
 ```
 
-**Please keep in mind** that the `<destination_folder>` should be a module name without the `pos-module-` prefix that it is by default. This additional step is required in the developement stage, but will replaced by a separate `pos-cli` command in the near future.
+**Please keep in mind** that the `<destination_folder>` should be a module name without the `pos-module-` prefix that it is by default. This additional step is required in the developement stage, but will be replaced by a separate `pos-cli` command in the near future.
 
-Let's install the `Components Library Module` from the root of the main repository:
+Install the `Components Library Module` from the root of the main repository:
 
 ```
 cd ./modules/
 git submodule add https://github.com/Platform-OS/pos-module-components.git ./components/
 ```
 
-For a detailed information on how to use each module, please reference the Readme of it.
+For detailed information on how to use each module, please refer to its Readme.
 
-Currently available list of modules:
+List of currently available modules:
 1. [PlatformOS Core](https://github.com/Platform-OS/pos-module-core)
 2. [Components Library](https://github.com/Platform-OS/pos-module-components)
 3. [Theme Manager](https://github.com/Platform-OS/pos-module-theme-manager)
@@ -98,7 +98,7 @@ Currently available list of modules:
 5. [Permission](https://github.com/Platform-OS/pos-module-permission)
 6. [Admin](https://github.com/Platform-OS/pos-module-admin)
 
-**To update a module** to the newest version one can use:
+**To update a module** to the newest version use:
 
 ```
 git submodule update --remote --merge
@@ -111,6 +111,6 @@ git submodule update --remote --merge
 
 **To learn about modules integration** please refer to the [hook system](https://github.com/Platform-OS/pos-module-core).
 
-**To create your own module** please refer to [Module Template](https://github.com/Platform-OS/pos-module-template) repository.
+**To create your own module** please refer to the [Module Template](https://github.com/Platform-OS/pos-module-template) repository.
 
-**To create your own theme** please refer to [Theme Module Starter](https://github.com/Platform-OS/pos-theme-module-template) repository.
+**To create your own theme** please refer to the [Theme Module Starter](https://github.com/Platform-OS/pos-theme-module-template) repository.
