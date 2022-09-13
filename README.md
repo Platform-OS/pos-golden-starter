@@ -81,14 +81,14 @@ git submodule add <module_remote_url> <destination_folder>
 
 **Please keep in mind** that the `<destination_folder>` should be a module name without the `pos-module-` prefix that it is by default. This additional step is required in the developement stage, but will be replaced by a separate `pos-cli` command in the near future.
 
-As an example, let’s install the `Components Library Module` from the root of the main repository:
+As an example, install the `Components Library Module` from the root of the main repository:
 
 ```
 cd ./modules/
 git submodule add https://github.com/Platform-OS/pos-module-components.git ./components/
 ```
 
-To deploy the newly added module, we need to get back to the root directory and run the corresponding `pos-cli` command:
+To deploy the newly added module, get back to the root directory and run the corresponding `pos-cli` command:
 
 ```
 cd ..
