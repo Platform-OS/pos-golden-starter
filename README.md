@@ -73,7 +73,7 @@ This will add the instance with a `dev` alias as the developement tools assume t
 ### Install and manage modules
 Golden Platform modules are self-contained building blocks that you can use to create complex and customized webpages and applications.
 
-Modules are managed using [GIT Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To install a module, you need to run the following command in the `.\modules\` subfolder:
+Modules are managed using [GIT Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To install a module, you need to run the following command in the `./modules` subfolder:
 
 ```
 git submodule add <module_remote_url> <destination_folder>
@@ -99,7 +99,7 @@ For detailed information on how to use each module, please refer to its Readme.
 
 List of currently available modules:
 1. [PlatformOS Core](https://github.com/Platform-OS/pos-module-core)
-2. [Components Library](https://github.com/Platform-OS/pos-module-components)
+2. [Component Library](https://github.com/Platform-OS/pos-module-components)
 3. [Theme Manager](https://github.com/Platform-OS/pos-module-theme-manager)
 4. [User](https://github.com/Platform-OS/pos-module-user)
 5. [Permission](https://github.com/Platform-OS/pos-module-permission)
